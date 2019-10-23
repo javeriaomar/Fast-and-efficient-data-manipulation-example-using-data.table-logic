@@ -1,0 +1,31 @@
+
+STEP 1:PREPARE AND CLEAN DATA
+PART a 
+Find invoics having more than one "entered" events. Remove all events for these invoices from customer_invoices file and record their IDs
+
+PART b
+For events with higher invoice version should have a status_datetime >= than the previous ones. Remove events for these invoices that fail this condition from customer_invoice and record their IDs.
+
+PART c
+Filter out the adjusted events from the remaining customer_invoices as we wont need them for this exercise
+
+PART d
+SANITY CHECK: find the 1st and last dates for all datetime fileds. Record them and check them if they are sensible
+
+STEP 2:BASIC FEATURE ENGINERRING AND DATA NORMALIZATION
+The activity is to access the risk of each invoice as it is entered and want to evaluate whether it eventually gets paid on time.
+To do this following tasks are persormend
+
+Part a
+Create features for entered_date and paid_date
+
+Part b
+Convert the table of events into table of invoices
+
+Part c
+Create a feature for "Is_Late"
+
+Part d
+Create a feature for Early_Late_days
+
+

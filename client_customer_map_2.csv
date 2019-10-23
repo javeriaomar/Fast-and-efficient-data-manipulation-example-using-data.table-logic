@@ -1,0 +1,11 @@
+customer_id,client_customer_id,client_subentity,client_customer_city,client_customer_region,payment_terms_A,client_payment__B
+7,60000075,60,Karachi,PK,100%-30-Days/NA-NA-NA,A
+9,60000077,60,Lahore,PK,100%-90-Days/NA-NA-NA,A
+322,60001699,60,Islamabad,PK,100%-45-Days/NA-NA-NA,A
+1651,50001712,50,,CA,100%-30-Days/NA-NA-NA,A
+2826,50002632,50,,PK,100%-30-Days/NA-NA-NA,A
+3817,50003662,50,,China,100%-30-Days/NA-NA-NA,A
+3981,50003240,50,,PK,100%-60-Days/NA-NA-NA,A
+6574,50004048,50,Tehran,Iran,100%-30-Days/NA-NA-NA,A
+7381,92001425,92,Multan,PK,100%-90-Days/NA-NA-NA,A
+8608,50006297,50,Toronto,CA,100%-3-Months-30-Days/NA-NA-NA,H
